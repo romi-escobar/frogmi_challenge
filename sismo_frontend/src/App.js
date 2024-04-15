@@ -90,7 +90,7 @@ const FeatureList = () => {
     <div>
       <h1>Lista de Eventos Sísmicos</h1>
       <div>
-        <label htmlFor="perPage">Features por página:</label>
+        <label htmlFor="perPage">Eventos por página: </label>
         <select id="perPage" value={perPage} onChange={handlePerPageChange}>
           <option value="20">20</option>
           <option value="50">50</option>
@@ -100,7 +100,7 @@ const FeatureList = () => {
         </select>
       </div>
       <div>
-        <label htmlFor="magTypeFilter">Filtrar por mag_type:</label>
+        <label htmlFor="magTypeFilter">Filtrar por Tipo de Magnitud: </label>
         <select id="magTypeFilter" value={magTypeFilter} onChange={handleMagTypeFilterChange}>
           <option value="">Todos</option>
           <option value="md">md</option>
